@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cosmic Vocabulary: Explore the Universe of Space Terms!">
+  <title>Cosmic Vocabulary - Space Dictionary App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>Cosmic Vocabulary</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <section id="home" class="main-section">
+    <div class="content">
+      <h2>Explore the Universe of Space Terms</h2>
+      <p>Search for space-related words and expand your cosmic knowledge.</p>
+      <a href="#search" class="cta-button">Start Searching</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>About Cosmic Vocabulary</h2>
+    <p>Cosmic Vocabulary is a space dictionary app that provides definitions and explanations of celestial terms and concepts. Whether you are a student, an enthusiast, or a professional, you'll find the knowledge you need to explore the cosmos.</p>
+  </section>
+
+  <!-- Search Section -->
+  <section id="search" class="search-section">
+    <h2>Search the Dictionary</h2>
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Enter a space term...">
+      <button onclick="searchTerm()">Search</button>
+    </div>
+    <div id="result-container"></div>
+
+    <!-- 3D Model Viewer -->
+    <div id="3d-model-container">
+      <h3>3D Model</h3>
+      <model-viewer id="planet-viewer" src="" alt="3D model" camera-controls autoplay></model-viewer>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>If you have any suggestions or queries, feel free to contact us at <a href="mailto:contact@cosmicvocabulary.com">contact@cosmicvocabulary.com</a>.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Cosmic Vocabulary. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
